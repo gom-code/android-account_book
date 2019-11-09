@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.junho.mobileproject.MainActivity">
+
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+        -->
+
+    <item
+        android:id="@+id/statistics"
+        android:icon="@drawable/ic_statistics"
+        android:title="statistics"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="search"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_menu"
+        android:title="menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/monthly"
+                android:title="월간" />
+            <item
+                android:id="@+id/weekly"
+                android:title="주간" />
+            <item
+                android:id="@+id/daily"
+                android:title="일간" />
+            <item
+                android:id="@+id/today"
+                android:title="오늘" />
+            <item
+                android:id="@+id/cancle"
+                android:title="닫기" />
+        </menu>
+    </item>
+</menu>
